@@ -1,0 +1,6 @@
+Kieu so: int, float, complex
+Kieu chuoi: str, list, tuple 
+Kieu anh xa: dict
+Kieu tap hop: set, frozenset 
+Kieu Boolean: bool
+Kieu du lieu dac biet: NoneType

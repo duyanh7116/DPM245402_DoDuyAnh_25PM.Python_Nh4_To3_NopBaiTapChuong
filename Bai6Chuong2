@@ -1,0 +1,13 @@
+1. Toán tử Số học (Arithmetic Operators) 
+Toán tử	Tên	Ý nghĩa	Ví dụ	Kết quả
+    /	Chia thực (Division)	Chia lấy kết quả là số thực (float).	7 / 2	= 3.5
+    //	Chia nguyên (Floor Division)	Chia lấy phần nguyên, làm tròn xuống (về số nguyên nhỏ hơn hoặc bằng).	7 // 2  =	3 
+    %	Chia lấy dư (Modulo)	Trả về phần dư của phép chia.	7 % = 1
+    **	Lũy thừa (Exponentiation)	Tính lũy thừa, a mũ b (a^b).	2 ** 3 = 8
+2. Toán tử Logic (Logical Operators) 
+    Các toán tử này kết hợp các điều kiện Boolean (True hoặc False).
+    and	Và (Logical AND). Trả về True nếu cả hai toán hạng đều là True. Sử dụng short-circuiting (dừng ngay nếu toán hạng đầu tiên là False).
+    or	Hoặc (Logical OR). Trả về True nếu một trong hai toán hạng là True. Sử dụng short-circuiting (dừng ngay nếu toán hạng đầu tiên là True).
+3. Toán tử Identity (Identity Operator) 
+    Toán tử	Ý nghĩa	Chức năng
+    is	Là (Is the same object)	Trả về True nếu hai biến cùng tham chiếu đến cùng một đối tượng trong bộ nhớ (kiểm tra ID đối tượng), khác với == (chỉ kiểm tra giá trị).

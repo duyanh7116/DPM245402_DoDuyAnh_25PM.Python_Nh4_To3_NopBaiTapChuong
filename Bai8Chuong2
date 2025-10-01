@@ -1,0 +1,18 @@
+1. Các Loại Lỗi Thường Gặp 🐛
+    *Lỗi được chia thành hai nhóm chính:
+        -Lỗi Cú pháp (Syntax Errors):
+            +Xảy ra khi code vi phạm quy tắc ngữ pháp của Python (ví dụ: thiếu dấu hai chấm, sai từ khóa).
+            +Trình thông dịch (interpreter) không thể chạy chương trình và báo lỗi SyntaxError.
+
+        -Lỗi Ngoại lệ (Exceptions / Runtime Errors):
+            +Xảy ra khi chương trình đang chạy do một tình huống bất thường, dù cú pháp code đúng.
+            +Chương trình dừng đột ngột và in ra Traceback.
+            +Các loại phổ biến: NameError (biến chưa định nghĩa), TypeError (sai kiểu dữ liệu trong thao tác), ZeroDivisionError (chia cho 0), IndexError (truy cập index ngoài phạm vi).
+
+2. Cách Bắt Lỗi và Xử lý Ngoại lệ (Exception Handling) 🛡️
+    -Để ngăn chương trình bị dừng bởi lỗi ngoại lệ, ta sử dụng cấu trúc try...except:
+        +try: Chứa đoạn code có khả năng gây lỗi.
+        +except: Chứa đoạn code xử lý lỗi (báo lỗi thân thiện, gán giá trị mặc định, v.v.) nếu lỗi xảy ra trong khối try.
+    -Cấu trúc Mở rộng:
+        +else: Chạy nếu khối try thành công (không có lỗi).
+        +finally: Luôn luôn chạy, bất kể có lỗi hay không (thường dùng để dọn dẹp tài nguyên như đóng file).

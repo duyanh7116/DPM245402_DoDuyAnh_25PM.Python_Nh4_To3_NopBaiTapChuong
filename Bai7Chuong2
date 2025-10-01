@@ -1,0 +1,10 @@
+Các cách Nhập Dữ liệu từ Bàn phím
+    Phương pháp cốt lõi để nhập dữ liệu trong Python là sử dụng hàm input().
+    Các Phương pháp Chính
+    Nhập Chuỗi Cơ bản: Sử dụng input() đơn thuần. Hàm này luôn trả về chuỗi (string) theo mặc định.
+
+    Nhập và Ép kiểu Số: Phải dùng int() hoặc float() để chuyển chuỗi nhập được thành số, cho phép thực hiện tính toán.
+        Ví dụ: so = int(input(...))
+
+    Nhập Nhiều Giá trị trên Một Hàng: Kết hợp input(), .split() (tách chuỗi thành danh sách) và map() (ép kiểu hàng loạt) để xử lý nhiều đầu vào cùng lúc.
+        Ví dụ: x, y = map(int, input().split())
